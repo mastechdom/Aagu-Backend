@@ -3,9 +3,7 @@ const passport = require("passport");
 
 const User = require('./models/user-model');
 
-const GOOGLE_CLIENT_ID =
-  "483563227546-f5hml1lp0jrfi1hl3hfrjsp6g77iath3.apps.googleusercontent.com";
-const GOOGLE_CLIENT_SECRET = "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";
+
 
 passport.use(
   new GoogleStrategy(
